@@ -15,6 +15,7 @@ public class VectorProgram2{
         System.out.println("deleted element "+v.get(b));
         v.remove(b);
         System.out.println(v);
+        sc.close();
 
     }
 }
