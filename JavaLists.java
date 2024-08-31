@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.HashMap;
 import java.util.HashSet;
-
+import java.util.Iterator;
 public class JavaLists {
 
     //This is Array List functions 
@@ -94,7 +94,23 @@ public class JavaLists {
         }
     }
 
-    //Iterators
+    //Iterators in Java
+
+    public void iteratorsMethod(){
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("BMW");
+        cars.add("Mercedes");
+        cars.add("Aston Martin");
+        cars.add("Dodge Challenger");
+        System.out.println("<----------HashSet-------->");
+
+        Iterator<String> it = cars.iterator();
+        while(it.hasNext()){
+                String i = it.next();
+                System.out.println(i);
+        }
+        
+    }
         
     
 
@@ -104,5 +120,6 @@ public class JavaLists {
         // jl.linkedListmethod();
         // jl.hashMapMethod();
         jl.hashSetMethod();
+        jl.iteratorsMethod();
     }
 }
