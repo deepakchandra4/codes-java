@@ -53,7 +53,7 @@ public class TwoSum {
         System.out.println("Enter you Target number : ");
         int target = sc.nextInt();
 
-        Solution sol = new Solution();
+        TwoSum sol = new TwoSum();
 
         int[] result = sol.twoSum(nums, target);
         if (result.length == 2) {

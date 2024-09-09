@@ -1,5 +1,13 @@
 // package Patterns;
 
+/*
+          * 
+       *  * 
+    *  *  * 
+ *  *  *  * 
+
+ */
+
 public class InvHalfP180deg {
     public static void main(String[] args) {
         for(int i=1; i<5; i++){
