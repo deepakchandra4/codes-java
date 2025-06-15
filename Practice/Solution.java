@@ -24,6 +24,21 @@ public class Solution {
         //     }
         // }
         // System.out.println(k-1); d
+
+
+        /*
+            
+            2->3->4 = in reverse 4->3->2
+            5-6-4 = 4-6-5 
+            2+5 = 7 carry 0
+            3+6 = 9 
+
+            int carrry = 0 ;
+            carry = sum/10
+            
+
+
+         */
      
         
     }
